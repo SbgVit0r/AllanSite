@@ -1,20 +1,20 @@
 # Portfólio de Designer
 
-Este repositório contém o código-fonte para o meu portfólio online como designer. O objetivo deste site é apresentar meu trabalho, habilidades e experiência, proporcionando uma visão clara sobre os tipos de projetos que desenvolvo.
+Este repositório contém o código-fonte para um portfólio online de um estudante de audiovisual. O objetivo deste site é apresentar trabalho, habilidades e experiência, proporcionando uma visão clara sobre os tipos de projetos desenvolvidos.
 
 ## 🚀 Visite o Portfólio Online
 
 Você pode acessar o portfólio online clicando no link abaixo:
 
-[Meu Portfólio Online](https://allangabriel.com)
+[Portfólio Website](https://allangabriel.com)
 
 ## 📋 Descrição
 
-Este site foi desenvolvido para mostrar minha trajetória profissional e os projetos que já realizei como designer gráfico e digital. O portfólio inclui seções como:
+Este site foi desenvolvido para mostrar trajetória profissional e os projetos realizados. O portfólio inclui seções como:
 
-- **Sobre Mim**: Um breve resumo sobre minha experiência, filosofia de design e habilidades.
-- **Projetos**: Uma galeria de projetos em que trabalhei, com descrições detalhadas e imagens.
-- **Contato**: Formulário para entrar em contato diretamente comigo.
+- **Sobre Mim**: Um breve resumo sobre experiência, filosofia de design e habilidades.
+- **Projetos**: Uma galeria de projetos desenvolvidos, com descrições detalhadas e imagens.
+- **Contato**: Formulário para entrar em contato diretamente.
 
 ## 🔧 Tecnologias Utilizadas
 
