@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="scripts/animation.js"></script>
+    <title>Allan Gabriel</title>
+</head>
+<body style="background-color: rgb(43, 51, 51);">
+
+    <div class="w-full">
+        <nav class="p-4 shadow-xl" style="background-color: rgb(57, 170, 170);">
+            <ul class="flex justify-center space-x-24">
+                <li><a rel="next" href="index.html" class="text-white text-xl font-bold hover:text-gray-600 duration-700">Sobre mim</a></li>
+                <li><a rel="next" href="contato.html" class="text-white text-xl font-bold hover:text-gray-600 duration-700">Contato</a></li>
+                <li><a rel="next" href="projetos.html" class="text-white text-xl font-bold hover:text-gray-600 duration-700">Projetos</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="animado flex flex-col md:flex-row p-10">
+        <div class="text-white text-4xl md:text-8xl font-bold mb-8 w-full md:w-1/2">
+            Fale comigo <br>
+            sobre seu <br>
+            próximo <br>
+            projeto!
+        </div>
+        <div class="animado bg-white rounded-md shadow-md p-6 w-full md:w-1/2" style="height: auto; max-height: 80vh;">
+            <div class="mb-4">
+                <label for="name" class="block text-gray-700 text-sm font-bold mb-2">
+                    Seu nome aqui
+                </label>
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Seu nome"
+                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                />
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block text-gray-700 text-sm font-bold mb-2">
+                    Seu email aqui
+                </label>
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Seu email"
+                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                />
+            </div>
+            <div class="mb-4">
+                <label for="message" class="block text-gray-700 text-sm font-bold mb-2">
+                    Escreva aqui sua proposta
+                </label>
+                <textarea
+                    id="message"
+                    placeholder="Sua proposta"
+                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    style="height: 50vh;"
+                ></textarea>
+            </div>
+            <button onclick="alert('Seu email foi enviado!')" style="background-color: rgb(57, 85, 85);" class="text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">ENVIAR</button>
+        </div>
+    </div>
+</body>
+</html>
